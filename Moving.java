@@ -14,7 +14,6 @@ public class Moving { // Déclaration de la classe publique nommée Moving
 
         // Calculer combien de voyages sont nécessaires
         // On divise le nombre total de cartons par la capacité du camion
-        // Math.ceil arrondit toujours le résultat vers le haut pour tenir compte des cartons restants
         int nbOfTrips = (totalOfBoxes + vanCap)  / vanCap;
         System.out.println("On a besoin de " + nbOfTrips + " voyage(s)"); // Afficher le nombre de voyages nécessaires
 
